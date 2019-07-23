@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "serv_relay.h": "c",
+        "ecu_cd1030.h": "c",
+        "serv_system.h": "c",
+        "ecu_mc33972.h": "c",
+        "serv_fuse.h": "c",
+        "datacontainer.h": "c",
+        "pe_types.h": "c",
+        "serv_ips.h": "c",
+        "schedule.h": "c",
+        "appl_process.h": "c",
+        "mcu_time.h": "c",
+        "serv_e2p.h": "c"
+    }
+}

@@ -1,0 +1,37 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/PE_Error.h" FileDate="2019-07-22, 13:35:50" FileAge="1563770150235" FileType="45637" />
+      <File Name="Documentation/BOOT_Settings.xml" FileDate="2019-07-22, 13:35:50" FileAge="1563770150291" FileType="3072" />
+      <File Name="Generated_Code/CANPHY0.h" FileDate="2019-07-22, 13:35:50" FileAge="1563770150259" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2019-07-22, 13:35:50" FileAge="1563770150224" FileType="45637" />
+      <File Name="Generated_Code/CANPHY0.c" FileDate="2019-07-22, 13:35:50" FileAge="1563770150254" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2019-07-22, 13:35:50" FileAge="1563770150211" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2019-07-22, 13:35:50" FileAge="1563770150217" FileType="45637" />
+      <File Name="Generated_Code/CANComm.h" FileDate="2019-07-22, 13:35:50" FileAge="1563770150270" FileType="45637" CompNumb="6" />
+      <File Name="Sources/Events.h" FileDate="2019-07-05, 10:48:04" FileAge="1562291284647" FileType="131328" />
+      <File Name="Documentation/BOOT.txt" FileDate="2019-07-22, 13:35:50" FileAge="1563770150299" FileType="3072" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2019-07-22, 13:35:50" FileAge="1563770150205" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/CANComm.c" FileDate="2019-07-22, 13:35:50" FileAge="1563770150264" FileType="45637" CompNumb="6" />
+      <File Name="Sources/Events.c" FileDate="2019-07-05, 10:41:25" FileAge="1562290885814" FileType="131328" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2019-07-22, 13:35:50" FileAge="1563770150230" FileType="45637" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2019-07-22, 13:35:50" FileAge="1563770150191" FileType="45637" CompNumb="2" />
+      <File Name="Documentation/BOOT_SIGNALS.txt" FileDate="2019-07-22, 13:35:50" FileAge="1563770150275" FileType="3072" />
+      <File Name="Generated_Code/Timer_1ms.h" FileDate="2019-07-22, 13:35:50" FileAge="1563770150249" FileType="45637" CompNumb="10" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.prm" FileDate="2019-07-22, 13:35:50" FileAge="1563770150199" FileType="8" CompNumb="2" />
+      <File Name="Generated_Code/Timer_1ms.c" FileDate="2019-07-22, 13:35:50" FileAge="1563770150244" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2019-07-22, 13:35:50" FileAge="1563770150239" FileType="45637" />
+      <File Name="Sources/main.c" FileDate="2019-07-18, 17:13:54" FileAge="1563437634876" FileType="128" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>1</CodeGenReference>
+</CodeGenerationInfo>

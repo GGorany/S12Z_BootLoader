@@ -1,0 +1,45 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/LED_GR.c" FileDate="2019-07-22, 13:04:25" FileAge="1563768265823" FileType="45637" CompNumb="55" />
+      <File Name="Sources/main.c" FileDate="2019-07-22, 13:04:25" FileAge="1563768265848" FileType="128" />
+      <File Name="Generated_Code/LED_ORG.c" FileDate="2019-07-22, 13:04:25" FileAge="1563768265831" FileType="45637" CompNumb="53" />
+      <File Name="Sources/Events.c" FileDate="2019-07-22, 10:17:14" FileAge="1563758234840" FileType="131328" />
+      <File Name="Generated_Code/LED_YEL.c" FileDate="2019-07-22, 13:04:25" FileAge="1563768265827" FileType="45637" CompNumb="54" />
+      <File Name="Generated_Code/CANPHY0.c" FileDate="2019-07-22, 11:21:32" FileAge="1563762092245" FileType="45637" CompNumb="11" />
+      <File Name="Documentation/APP_SIGNALS.txt" FileDate="2019-07-22, 13:58:19" FileAge="1563771499498" FileType="3072" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2019-07-22, 11:21:32" FileAge="1563762092239" FileType="45637" />
+      <File Name="Generated_Code/LED_RED.h" FileDate="2019-07-22, 13:04:25" FileAge="1563768265821" FileType="45637" CompNumb="56" />
+      <File Name="Generated_Code/LED_RED.c" FileDate="2019-07-22, 13:04:25" FileAge="1563768265819" FileType="45637" CompNumb="56" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2019-07-22, 11:49:26" FileAge="1563763766757" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2019-07-22, 11:21:32" FileAge="1563762092243" FileType="45637" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2019-07-22, 13:04:25" FileAge="1563768265853" FileType="45637" CompNumb="2" />
+      <File Name="Documentation/APP_Settings.xml" FileDate="2019-07-22, 13:04:25" FileAge="1563768265920" FileType="3072" />
+      <File Name="Documentation/APP.txt" FileDate="2019-07-22, 13:04:25" FileAge="1563768265934" FileType="3072" />
+      <File Name="Generated_Code/CANComm.h" FileDate="2019-07-22, 11:21:32" FileAge="1563762092250" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/CANComm.c" FileDate="2019-07-22, 13:04:25" FileAge="1563768265843" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2019-07-22, 11:21:32" FileAge="1563762092241" FileType="45637" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.prm" FileDate="2019-07-22, 10:01:11" FileAge="1563757271153" FileType="8" CompNumb="2" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2019-07-22, 13:04:25" FileAge="1563768265857" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2019-07-22, 11:21:32" FileAge="1563762092237" FileType="45637" />
+      <File Name="Generated_Code/Timer_1ms.h" FileDate="2019-07-22, 11:49:26" FileAge="1563763766753" FileType="45637" CompNumb="6" />
+      <File Name="Generated_Code/LED_GR.h" FileDate="2019-07-22, 13:04:25" FileAge="1563768265825" FileType="45637" CompNumb="55" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2019-07-22, 11:21:32" FileAge="1563762092234" FileType="45637" />
+      <File Name="Generated_Code/Timer_1ms.c" FileDate="2019-07-22, 11:49:26" FileAge="1563763766748" FileType="45637" CompNumb="6" />
+      <File Name="Generated_Code/LED_ORG.h" FileDate="2019-07-22, 13:04:25" FileAge="1563768265832" FileType="45637" CompNumb="53" />
+      <File Name="Generated_Code/LED_YEL.h" FileDate="2019-07-22, 13:04:25" FileAge="1563768265828" FileType="45637" CompNumb="54" />
+      <File Name="Sources/Events.h" FileDate="2019-07-22, 13:04:25" FileAge="1563768265862" FileType="131328" />
+      <File Name="Generated_Code/CANPHY0.h" FileDate="2019-07-22, 11:21:32" FileAge="1563762092247" FileType="45637" CompNumb="11" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>10</CodeGenReference>
+</CodeGenerationInfo>

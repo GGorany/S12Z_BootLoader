@@ -1,0 +1,26 @@
+-B
+-M
+"$(ProjDirPath)/Project_Settings/Linker_Files/ProcessorExpert.prm"
+-ViewHidden
+-WmsgFob"%f%e:%l:%k:%d:%m\n"
+-WmsgSd1100
+-WmsgSd1912 
+-Add("$(ProjDirPath)/FLASH/Sources/E2P_c.obj"
+"$(ProjDirPath)/FLASH/Sources/Events_c.obj"
+"$(ProjDirPath)/FLASH/Sources/main_c.obj"
+"$(ProjDirPath)/FLASH/Sources/MCU/EEPROM_S12Z_c.obj"
+"$(ProjDirPath)/FLASH/Sources/MCU/MCU_SYSTEM_c.obj"
+"$(ProjDirPath)/FLASH/Sources/COMM/CAN_c.obj"
+"$(ProjDirPath)/FLASH/Sources/APPL/LED_c.obj"
+"$(ProjDirPath)/FLASH/Project_Settings/Startup_Code/starts12z_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/CANComm_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/CANPHY0_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/Cpu_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/IO_Map_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/LED_GR_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/LED_ORG_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/LED_RED_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/LED_YEL_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/Timer_1ms_c.obj"
+"$(ProjDirPath)/FLASH/Generated_Code/Vectors_c.obj"
+"$(MCUToolsBaseDirEnv)/S12lisa_Support/s12lisac/lib_small/ansif.lib" )

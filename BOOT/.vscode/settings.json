@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "isotp.h": "c",
+        "can.h": "c",
+        "stdlib.h": "c",
+        "isotp_user.h": "c",
+        "udsserver.h": "c",
+        "isotp_config.h": "c",
+        "udsserver_defines.h": "c",
+        "udsserver_config.h": "c",
+        "udssupport.h": "c",
+        "cancomm.h": "c",
+        "network_layer.h": "c",
+        "uds_type.h": "c",
+        "stdint.h": "c",
+        "pe_types.h": "c",
+        "config_for_bootloader.h": "c",
+        "serv_e2p.h": "c",
+        "system.h": "c",
+        "eeprom_control.h": "c",
+        "flash_control.h": "c",
+        "eeprom_s12z.h": "c",
+        "flash_s12z.h": "c"
+    }
+}

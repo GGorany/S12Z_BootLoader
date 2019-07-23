@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>Connect.ico</file>
+    <file>DisConnect.ico</file>
+    <file>logo_icon.ico</file>
+  </qresource>
+  <qresource prefix="bmp"/>
+</RCC>

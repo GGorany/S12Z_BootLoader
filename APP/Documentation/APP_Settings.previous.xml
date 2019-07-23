@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PE_PROJECT_SETTINGS_DOCUMENTATION>
+  <PE_product_version v="version 10.3 for Freescale Microcontrollers" />
+  <PE_core_version v="Processor Expert Version 0509" />
+  <CPU_Bean name="Cpu" type="MC9S12ZVC192_64">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="Cpu" />
+      <Clock_generator v="CPMU" />
+      <CPU_type v="MC9S12ZVC64MKH" />
+      <list name="Shared clock settings" v="1">
+        <group name="Clock settings">
+          <group name="Internal clock">
+            <Internal_oscillator_frequency__kHz_ v="1000" />
+          </group>
+          <boolgroup name="External clock" v="Enabled">
+            <Clock_frequency__MHz_ v="4" />
+            <group name="Clock input pin">
+              <Pin v="PE0_EXTAL" />
+            </group>
+            <group name="Clock output pin">
+              <Pin v="PE1_XTAL" />
+            </group>
+            <Oscillator_clock_monitor_reset v="Enabled" />
+            <External_oscillator_mode v="Loop controlled mode" />
+          </boolgroup>
+          <group name="Output clock">
+            <boolgroup name="ECLK clock" v="Disabled" />
+          </group>
+          <group name="Low-power modes settings">
+            <Pseudo_stop v="no" />
+          </group>
+        </group>
+      </list>
+      <list name="Shared internal resource mapping - S12Z" v="1">
+        <group name="Internal resource mapping">
+          <group name="Interrupt/Reset vector table">
+            <group name="Reset vector table">
+              <Address v="16777212" />
+              <Size v="4" />
+            </group>
+            <group name="Interrupt vector table">
+              <Address v="16711696" />
+              <Size v="492" />
+              <Init_IVBR_register v="yes" />
+            </group>
+          </group>
+        </group>
+      </list>
+      <list name="Shared user mode setting" v="1">
+        <group name="Operating mode settings">
+          <Boot_operating_mode v="Special Single Chip" />
+          <boolgroup name="Operating mode switching" v="no" />
+        </group>
+      </list>
+      <group name="Internal peripherals">
+        <list name="Shared BDM Module Settings" v="1">
+          <group name="BDM Debug support">
+            <Stop_COP_and_RTI_in_Active_BDM_mode v="no" />
+          </group>
+        </list>
+        <list name="Internal Peripherals IO" v="1">
+          <group name="I/O module">
+            <list name="Shared Unused I/O" v="1">
+              <enumgroup name="Initialize unused I/O pins" v="No initialization">
+                <EmptySection_DummyValue />
+              </enumgroup>
+            </list>
+            <group name="PORT P">
+              <Reduced_drive_for_PP0 v="no" />
+              <Reduced_drive_for_PP2 v="no" />
+              <Reduced_drive_for_PP4 v="no" />
+              <Reduced_drive_for_PP5 v="no" />
+              <Reduced_drive_for_PP6 v="no" />
+            </group>
+          </group>
+        </list>
+        <list name="Shared PWM Module Settings" v="1">
+          <EmptySection_DummyValue />
+        </list>
+        <list name="Shared TIM module settings" v="1">
+          <EmptySection_DummyValue />
+        </list>
+        <list name="Shared VREG module settings" v="1">
+          <group name="Voltage Regulator and temperature control">
+            <External_voltage_regulator_for_VDDC_domain v="Enabled" />
+            <Voltage_regulator_for_VDDX_domain v="VDDX uses internal power transistor" />
+            <Voltage_Access v="Temperature sense" />
+            <High_Temperature v="yes" />
+          </group>
+        </list>
+        <list name="Shared Security settings" v="1">
+          <group name="FLASH">
+            <enumgroup name="Protection override comparison key" v="Not initialized">
+              <EmptySection_DummyValue />
+            </enumgroup>
+            <enumgroup name="Protection state" v="Not initialized">
+              <EmptySection_DummyValue />
+            </enumgroup>
+            <enumgroup name="Security state" v="Not initialized">
+              <EmptySection_DummyValue />
+            </enumgroup>
+          </group>
+        </list>
+        <list name="Shared eeprom protection" v="1">
+          <group name="EEPROM">
+            <enumgroup name="Protection state" v="Not initialized">
+              <EmptySection_DummyValue />
+            </enumgroup>
+          </group>
+        </list>
+        <list name="Shared SRAM ECC settings" v="1">
+          <group name="SRAM ECC">
+            <ECC_Read_Repair_function v="Enabled" />
+          </group>
+        </list>
+        <list name="Shared watchdog settings" v="1">
+          <group name="Watchdog">
+            <Reset_Watchdog_in_CPUDelay100US_function v="yes" />
+          </group>
+        </list>
+      </group>
+      <list name="Shared CPU interrupts - S12Z" v="1">
+        <group name="CPU interrupts/resets">
+          <boolgroup name="Illegal Opcode" v="Disabled" />
+          <boolgroup name="Spare Opcode" v="Disabled" />
+          <boolgroup name="SWI" v="Disabled" />
+          <boolgroup name="LVD" v="Disabled" />
+          <boolgroup name="PLL lock" v="Disabled" />
+          <boolgroup name="Machine Exception" v="Disabled" />
+          <boolgroup name="Single bit SRAM ECC" v="Disabled" />
+          <boolgroup name="Oscillator Status Changed" v="Disabled" />
+          <boolgroup name="Spurious interrupt" v="Disabled" />
+          <boolgroup name="High temperature interrupt" v="Disabled" />
+          <boolgroup name="System call (SYS)" v="Disabled" />
+        </group>
+      </list>
+      <list name="Shared interrupts settings - S12Z" v="1">
+        <group name="Interrupts initialization">
+          <Initialization_priority v="interrupts enabled" />
+        </group>
+      </list>
+      <list name="Shared speed modes settings" v="1">
+        <group name="Enabled speed modes">
+          <boolgroup name="High speed mode" v="Enabled">
+            <High_speed_clock v="External Clock" />
+            <Internal_bus_clock v="16" />
+            <boolgroup name="PLL clock" v="Enabled">
+              <Reference_divider v="Auto select" />
+              <PLL_multiplication_factor v="Auto select" />
+              <PLL_post_divider v="Auto select" />
+              <VCO_clock_frequency__MHz_ v="32" />
+              <Frequency_Modulation v="FM off" />
+            </boolgroup>
+          </boolgroup>
+          <boolgroup name="Low speed mode" v="Disabled" />
+          <boolgroup name="Slow speed mode" v="Disabled" />
+        </group>
+      </list>
+    </Properties>
+    <Methods>
+      <list name="SharedCpuMethods" v="1">
+        <SetHighSpeed v="don&amp;apos;t generate code" />
+        <SetLowSpeed v="don&amp;apos;t generate code" />
+        <SetSlowSpeed v="don&amp;apos;t generate code" />
+        <GetSpeedMode v="don&amp;apos;t generate code" />
+        <EnableInt v="generate code" />
+        <DisableInt v="generate code" />
+        <SetWaitMode v="generate code" />
+        <SetStopMode v="generate code" />
+        <Delay100US v="generate code" />
+        <SetIPL v="don&amp;apos;t generate code" />
+        <GetLowVoltageFlag v="don&amp;apos;t generate code" />
+        <GetPllLockStatusFlag v="don&amp;apos;t generate code" />
+        <GetResetSource v="don&amp;apos;t generate code" />
+      </list>
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+      <list name="SharedCpuEvents" v="1">
+        <event name="OnReset" v="don&amp;apos;t generate code" />
+        <event name="OnMachineException" v="don&amp;apos;t generate code" />
+        <event name="OnIllegalOpcode" v="don&amp;apos;t generate code" />
+        <event name="OnSpareOpcode" v="don&amp;apos;t generate code" />
+        <event name="OnSwINT" v="don&amp;apos;t generate code" />
+        <event name="OnSysCall" v="don&amp;apos;t generate code" />
+        <event name="OnLvdStatusChanged" v="don&amp;apos;t generate code" />
+        <event name="OnHighTemperatureStatusChanged" v="don&amp;apos;t generate code" />
+        <event name="OnPllLockStatusChanged" v="don&amp;apos;t generate code" />
+        <event name="OnOscStatusChanged" v="don&amp;apos;t generate code" />
+        <event name="OnSpuriousInterrupt" v="don&amp;apos;t generate code" />
+        <event name="OnSRAM_ECCerror" v="don&amp;apos;t generate code" />
+      </list>
+    </Events>
+    <Compiler v="CodeWarrior HCS12Z C Compiler" />
+    <CompilerProperties>
+      <Compiler v="CodeWarrior HCS12Z C Compiler" />
+      <enumgroup name="Unhandled interrupts" v="One handler for all">
+        <Interrupt_priority v="Don&amp;apos;t initialize" />
+        <Unhandled_int_code>
+          <StrgList><![CDATA[/*lint -save -e950 Disable MISRA rule (1.1) checking. */
+asm(BGND);
+/*lint -restore Enable MISRA rule (1.1) checking. */
+]]></StrgList>
+        </Unhandled_int_code>
+      </enumgroup>
+      <Generate_macros v="yes" />
+      <group name="User initialization">
+        <User_data_declarations>
+          <StrgList></StrgList>
+        </User_data_declarations>
+        <User_code_before_PE_initialization>
+          <StrgList></StrgList>
+        </User_code_before_PE_initialization>
+        <User_code_after_PE_initialization>
+          <StrgList></StrgList>
+        </User_code_after_PE_initialization>
+      </group>
+      <boolgroup name="Generate PRM file" v="yes">
+        <enumgroup name="Stack specification" v="size">
+          <Stack_size v="512" />
+        </enumgroup>
+        <group name="Memory segments">
+          <Set_default_memory_segments v="Click to set default &amp;gt;" />
+          <list name="ROM/RAM segments" v="3">
+            <boolgroup name="Segment0" v="Enabled">
+              <Name v="RAM" />
+              <Qualifier v="READ_WRITE" />
+              <Address v="4096" />
+              <Size v="4096" />
+              <boolgroup name="Relocation" v="Disabled" />
+              <boolgroup name="Align" v="Disabled" />
+              <boolgroup name="Fill pattern" v="Disabled" />
+              <Code_overlapping v="overlapping not specified" />
+              <Const_data_overlapping v="overlapping not specified" />
+            </boolgroup>
+            <boolgroup name="Segment1" v="Disabled" />
+            <boolgroup name="Segment2" v="Enabled">
+              <Name v="ROM" />
+              <Qualifier v="READ_ONLY" />
+              <Address v="16712192" />
+              <Size v="48640" />
+              <boolgroup name="Relocation" v="Disabled" />
+              <boolgroup name="Align" v="Disabled" />
+              <boolgroup name="Fill pattern" v="Disabled" />
+              <Code_overlapping v="overlapping not specified" />
+              <Const_data_overlapping v="overlapping not specified" />
+            </boolgroup>
+          </list>
+        </group>
+        <list name="C_ImportUserPlacement" v="1">
+          <boolgroup name="Customize placement" v="Disabled" />
+        </list>
+      </boolgroup>
+    </CompilerProperties>
+  </CPU_Bean>
+  <Bean name="Timer_1ms" type="TimerInt">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="Timer_1ms" />
+      <Periodic_interrupt_source v="T0C0" />
+      <Counter v="TIM0_Counter" />
+      <boolgroup name="Interrupt service/event" v="Enabled">
+        <Interrupt v="Vtim0ch0" />
+        <Interrupt_priority v="medium priority" />
+      </boolgroup>
+      <Interrupt_period v="1 ms" />
+      <Same_period_in_modes v="yes" />
+      <Component_uses_entire_timer v="no" />
+      <group name="Initialization">
+        <Enabled_in_init__code v="no" />
+        <Events_enabled_in_init_ v="yes" />
+      </group>
+      <group name="CPU clock/speed selection">
+        <High_speed_mode v="This component enabled" />
+        <Low_speed_mode v="This component disabled" />
+        <Slow_speed_mode v="This component disabled" />
+      </group>
+    </Properties>
+    <Methods>
+      <Enable v="generate code" />
+      <Disable v="generate code" />
+      <EnableEvent v="don&amp;apos;t generate code" />
+      <DisableEvent v="don&amp;apos;t generate code" />
+      <SetPeriodMode v="don&amp;apos;t generate code" />
+      <SetPeriodTicks16 v="don&amp;apos;t generate code" />
+      <SetPeriodTicks32 v="don&amp;apos;t generate code" />
+      <SetPeriodUS v="don&amp;apos;t generate code" />
+      <SetPeriodMS v="don&amp;apos;t generate code" />
+      <SetPeriodSec v="don&amp;apos;t generate code" />
+      <SetPeriodReal v="don&amp;apos;t generate code" />
+      <SetFreqHz v="don&amp;apos;t generate code" />
+      <SetFreqkHz v="don&amp;apos;t generate code" />
+      <SetFreqMHz v="don&amp;apos;t generate code" />
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+      <event name="BeforeNewSpeed" v="don&amp;apos;t generate code" />
+      <event name="AfterNewSpeed" v="don&amp;apos;t generate code" />
+      <event name="OnInterrupt" v="generate code">
+        <Event_procedure_name v="Timer_1ms_OnInterrupt" />
+        <Priority v="same as interrupt" />
+      </event>
+    </Events>
+  </Bean>
+  <Bean name="CANComm" type="FreescaleCAN">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="CANComm" />
+      <CAN_channel v="MSCAN0" />
+      <boolgroup name="Interrupt service/event" v="Enabled">
+        <Interrupt_TxD v="Vcan0tx" />
+        <Interrupt_TxD_priority v="medium priority" />
+        <Interrupt_RxD v="Vcan0rx" />
+        <Interrupt_RxD_priority v="medium priority" />
+        <Interrupt_Error v="Vcan0err" />
+        <Interrupt_Error_priority v="medium priority" />
+        <Interrupt_Wakeup v="Vcan0wkup" />
+        <Interrupt_Wakeup_priority v="medium priority" />
+      </boolgroup>
+      <group name="Settings">
+        <Rx_pin v="CANPHY0_RXD_to_MSCAN0_RXD" />
+        <Tx_pin v="MSCAN0_TXD_to_CANPHY0_TXD" />
+        <Acceptance_mode v="Two 32-bit acceptance filters" />
+        <group name="Acceptance codes">
+          <Acceptance_code_1 v="0" />
+          <Acceptance_code_2 v="0" />
+        </group>
+        <group name="Acceptance masks">
+          <Acceptance_mask_1 v="4294967295" />
+          <Acceptance_mask_2 v="4294967295" />
+        </group>
+        <Loop_mode v="no" />
+        <Bus_Off_recovery_mode v="Automatic" />
+        <Listen_only_mode v="no" />
+        <Time_stamp v="no" />
+        <boolgroup name="Wakeup" v="Disabled" />
+      </group>
+      <group name="Timing">
+        <CAN_timing_wizard v="click to run timing wizard -&amp;gt;" />
+        <Time_segment_1 v="10" />
+        <Time_segment_2 v="3" />
+        <RSJ v="1" />
+        <Samples_per_bit v="One sample" />
+        <Time_quanta_per_bit v="16" />
+        <Bit_rate v="250 kbit/s" />
+      </group>
+      <group name="Initialization">
+        <Enabled_in_init__code v="no" />
+        <Events_enabled_in_init_ v="yes" />
+      </group>
+      <group name="CPU clock/speed selection">
+        <High_speed_mode v="This component enabled" />
+        <Low_speed_mode v="This component disabled" />
+        <Slow_speed_mode v="This component disabled" />
+      </group>
+    </Properties>
+    <Methods>
+      <Enable v="generate code" />
+      <Disable v="generate code" />
+      <EnableEvent v="don&amp;apos;t generate code" />
+      <DisableEvent v="don&amp;apos;t generate code" />
+      <SetAcceptanceCode v="generate code" />
+      <GetAcceptanceCode v="don&amp;apos;t generate code" />
+      <SetAcceptanceMask v="generate code" />
+      <GetAcceptanceMask v="don&amp;apos;t generate code" />
+      <SetAcceptanceMode v="generate code" />
+      <SendFrame v="generate code" />
+      <GetTransmitErrorCounter v="don&amp;apos;t generate code" />
+      <GetReceiverErrorCounter v="don&amp;apos;t generate code" />
+      <ReadFrame v="generate code" />
+      <GetStateTX v="generate code" />
+      <GetStateRX v="generate code" />
+      <GetError v="generate code" />
+      <SetSleepRequest v="don&amp;apos;t generate code" />
+      <ClearSleepRequest v="don&amp;apos;t generate code" />
+      <GetSleepAck v="don&amp;apos;t generate code" />
+      <AbortMessage v="don&amp;apos;t generate code" />
+      <GetAbortMessageAck v="don&amp;apos;t generate code" />
+      <GetAccHitIndicator v="don&amp;apos;t generate code" />
+      <SendFrameExt v="generate code" />
+      <SetTxBufPriority v="don&amp;apos;t generate code" />
+    </Methods>
+    <Events>
+      <Event_module_name v="Events" />
+      <event name="AfterNewSpeed" v="don&amp;apos;t generate code" />
+      <event name="BeforeNewSpeed" v="don&amp;apos;t generate code" />
+      <event name="OnFreeTxBuffer" v="generate code">
+        <Event_procedure_name v="CANComm_OnFreeTxBuffer" />
+        <Priority v="same as interrupt" />
+      </event>
+      <event name="OnFullRxBuffer" v="generate code">
+        <Event_procedure_name v="CANComm_OnFullRxBuffer" />
+        <Priority v="same as interrupt" />
+      </event>
+      <event name="OnBusOff" v="generate code">
+        <Event_procedure_name v="CANComm_OnBusOff" />
+        <Priority v="same as interrupt" />
+      </event>
+      <event name="OnTransmitterErrorPassive" v="don&amp;apos;t generate code" />
+      <event name="OnReceiverErrorPassive" v="don&amp;apos;t generate code" />
+      <event name="OnOverrun" v="don&amp;apos;t generate code" />
+      <event name="OnTransmitterWarning" v="don&amp;apos;t generate code" />
+      <event name="OnReceiverWarning" v="don&amp;apos;t generate code" />
+      <event name="OnWakeup" v="don&amp;apos;t generate code" />
+      <event name="OnError" v="don&amp;apos;t generate code" />
+    </Events>
+  </Bean>
+  <Bean name="CANPHY0" type="Init_CANPHY">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="CANPHY0" />
+      <Device v="CANPHY0" />
+      <group name="Settings">
+        <Split_enable v="Disabled" />
+        <Wakeup_receiver v="Wake-up receiver is disabled" />
+        <Physical_layer_slew_rate v="Slew rate 0" />
+      </group>
+      <group name="Pins/Signals">
+        <group name="Supply pin">
+          <Pin v="VDDC" />
+        </group>
+        <group name="Ground pin">
+          <Pin v="VSSC" />
+        </group>
+        <group name="CAN bus high pin">
+          <Pin v="CANH" />
+        </group>
+        <group name="CAN bus low pin">
+          <Pin v="CANL" />
+        </group>
+        <group name="Termination pin">
+          <Pin v="SPLIT" />
+        </group>
+        <boolgroup name="Tx input" v="Enabled">
+          <Pin v="MSCAN0_TXD_to_CANPHY0_TXD" />
+        </boolgroup>
+        <group name="Rx output">
+          <boolgroup name="Output 0" v="Enabled">
+            <Pin v="CANPHY0_RXD_to_MSCAN0_RXD" />
+          </boolgroup>
+          <boolgroup name="Output 1" v="Disabled" />
+        </group>
+        <boolgroup name="CPDR1 output" v="Disabled" />
+      </group>
+      <group name="Interrupts">
+        <group name="CANPHY interrupt">
+          <Interrupt v="Vcanphy0" />
+          <Interrupt_priority v="1" />
+          <ISR_Name v="" />
+          <Voltage_failure_Interrupt v="Disabled" />
+          <Physical_layer_error_Interrupt v="Disabled" />
+          <Dominant_Timeout_Interrupt v="Disabled" />
+        </group>
+      </group>
+      <group name="Initialization">
+        <Physical_layer v="Enabled" />
+        <SW_control_value v="1" />
+        <Call_Init_method v="no" />
+      </group>
+    </Properties>
+    <Methods>
+      <Init v="generate code" />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+</PE_PROJECT_SETTINGS_DOCUMENTATION>
+

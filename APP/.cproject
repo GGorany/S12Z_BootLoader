@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.freescale.s12z.toolchain.release.1128754352">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.s12z.toolchain.release.1128754352" moduleId="org.eclipse.cdt.core.settings" name="FLASH">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.LltErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.CobjErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.MwErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.S08ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.MPWErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.MwfeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.LnkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="elf" artifactName="APP" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" buildReferences="true" buildReferencingConfigurations="false" cleanCommand="&quot;${system:ECLIPSE_HOME}/../gnu/bin/rm&quot; -f" description="" errorParsers="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser;org.eclipse.cdt.core.GmakeErrorParser;com.freescale.core.ide.cdt.errorParsers.LnkErrorParser;com.freescale.core.ide.cdt.errorParsers.AsmErrorParser;com.freescale.core.ide.cdt.errorParsers.CobjErrorParser;com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser;com.freescale.core.ide.cdt.errorParsers.LltErrorParser;com.freescale.core.ide.cdt.errorParsers.MwfeErrorParser;com.freescale.core.ide.cdt.errorParsers.MwErrorParser;com.freescale.core.ide.cdt.errorParsers.MPWErrorParser;com.freescale.core.ide.cdt.errorParsers.S08ErrorParser;" id="com.freescale.s12z.toolchain.release.1128754352" isPrebuildInvalidatingBuild="false" isVersionInfoProjSpecific="false" name="FLASH" parent="com.freescale.s12z.toolchain.release" postannouncebuildStep="Re-format S-record file" postbuildStep="${ProjDirPath}/SRecCvt/sreccvt.exe -hc12 -m 100000 FFFFFF 32 -o ..\FLASH\\${BuildArtifactFileBaseName}.s19 ..\FLASH\\${BuildArtifactFileBaseName}.sx" produceBuildErrorsWithMissingReferences="true">
+					<folderInfo id="com.freescale.s12z.toolchain.release.1128754352." name="/" resourcePath="">
+						<toolChain errorParsers="" id="com.freescale.s12z.toolchain.release.301211375" name="S12Z Toolchain" superClass="com.freescale.s12z.toolchain.release">
+							<targetPlatform id="com.freescale.s12z.toolchain.targetPlatform.164230719" isAbstract="false" name="S12Z Target Platform" superClass="com.freescale.s12z.toolchain.targetPlatform"/>
+							<builder buildPath="${ProjDirPath}/FLASH" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;com.freescale.core.ide.cdt.errorParsers.GCCErrorParser;com.freescale.core.ide.cdt.errorParsers.LltErrorParser;com.freescale.core.ide.cdt.errorParsers.AsmErrorParser;com.freescale.core.ide.cdt.errorParsers.IcodeErrorParser;com.freescale.core.ide.cdt.errorParsers.CobjErrorParser;com.freescale.core.ide.cdt.errorParsers.MwErrorParser;com.freescale.core.ide.cdt.errorParsers.S08ErrorParser;com.freescale.core.ide.cdt.errorParsers.MPWErrorParser;com.freescale.core.ide.cdt.errorParsers.MwfeErrorParser;com.freescale.core.ide.cdt.errorParsers.LnkErrorParser" id="com.freescale.s12z.toolchain.builder.138096520" keepEnvironmentInBuildfile="false" name="GNU Make Builder" parallelBuildOn="true" parallelBuildWorkspaceOn="true" parallelizationNumber="optimal" superClass="com.freescale.s12z.toolchain.builder"/>
+							<tool errorParsers="" id="com.freescale.s12z.toolchain.preprocessor.1269433650" name="S12Z Preprocessor" superClass="com.freescale.s12z.toolchain.preprocessor"/>
+							<tool errorParsers="" id="com.freescale.s12z.toolchain.disassembler.1356591629" name="S12Z Disassembler" superClass="com.freescale.s12z.toolchain.disassembler"/>
+							<tool errorParsers="" id="com.freescale.s12z.toolchain.burner.1555213059" name="S12Z Burner" superClass="com.freescale.s12z.toolchain.burner">
+								<option id="com.freescale.s12z.toolchain.burner.output.srec.all.28632686" name="Select All" superClass="com.freescale.s12z.toolchain.burner.output.srec.all" value="true" valueType="boolean"/>
+							</tool>
+							<tool errorParsers="" id="com.freescale.s12z.toolchain.linker.556649198" name="S12Z Linker" superClass="com.freescale.s12z.toolchain.linker">
+								<option id="com.freescale.s12z.toolchain.linker.input.paramFile.17231285" name="Parameter File" superClass="com.freescale.s12z.toolchain.linker.input.paramFile" value="${ProjDirPath}/Project_Settings/Linker_Files/ProcessorExpert.prm" valueType="string"/>
+								<option id="com.freescale.s12z.toolchain.linker.input.libs.1878098783" name="Libraries" superClass="com.freescale.s12z.toolchain.linker.input.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/S12lisa_Support/s12lisac/lib_small/ansif.lib&quot;"/>
+								</option>
+								<option id="com.freescale.s12z.toolchain.linker.msgs.WmsgSd.713230765" name="Set Messages to Disable" superClass="com.freescale.s12z.toolchain.linker.msgs.WmsgSd" valueType="stringList">
+									<listOptionValue builtIn="false" value="1100"/>
+									<listOptionValue builtIn="false" value="1912"/>
+								</option>
+								<option id="com.freescale.s12z.toolchain.linker.output.b.1312648128" name="Generate S-Record file" superClass="com.freescale.s12z.toolchain.linker.output.b" value="true" valueType="boolean"/>
+								<option id="com.freescale.s12z.toolchain.linker.base.linkOrder.1995683577" name="Link Order" superClass="com.freescale.s12z.toolchain.linker.base.linkOrder" valueType="stringList">
+									<listOptionValue builtIn="false" value="Generated_Code/Cpu.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/IO_Map.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/Vectors.c"/>
+									<listOptionValue builtIn="false" value="Project_Settings/Startup_Code/starts12z.c"/>
+									<listOptionValue builtIn="false" value="Sources/COMM/CAN.c"/>
+									<listOptionValue builtIn="false" value="Sources/Events.c"/>
+									<listOptionValue builtIn="false" value="Sources/main.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/CANComm.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/CANPHY0.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/LED_GR.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/LED_ORG.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/LED_RED.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/LED_YEL.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/Timer_1ms.c"/>
+									<listOptionValue builtIn="false" value="Sources/APPL/LED.c"/>
+									<listOptionValue builtIn="false" value="Sources/E2P.c"/>
+									<listOptionValue builtIn="false" value="Sources/MCU/EEPROM_S12Z.c"/>
+									<listOptionValue builtIn="false" value="Sources/MCU/MCU_SYSTEM.c"/>
+								</option>
+								<inputType id="com.freescale.s12z.toolchain.linker.inputType.846437313" name="S12Z Linker Input" superClass="com.freescale.s12z.toolchain.linker.inputType">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool errorParsers="" id="com.freescale.s12z.toolchain.compiler.403865372" name="S12Z Compiler" superClass="com.freescale.s12z.toolchain.compiler">
+								<option id="com.freescale.s12z.toolchain.compiler.input.sysInclude.1879635142" name="Search System Paths (#include &lt;...&gt;)" superClass="com.freescale.s12z.toolchain.compiler.input.sysInclude" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/S12lisa_Support/s12lisac/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/S12lisa_Support/s12lisac/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/S12lisa_Support/s12lisac/lib_small&quot;"/>
+								</option>
+								<option id="com.freescale.s12z.toolchain.compiler.input.include.1714782622" name="Search User Paths (#include &quot;...&quot;)" superClass="com.freescale.s12z.toolchain.compiler.input.include" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/COMM&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/MCU&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/APPL&quot;"/>
+								</option>
+								<option id="com.freescale.s12z.toolchain.compiler.warnings.warningsFlag.hidden.adjusted.1940116630.adjusted.375809644" superClass="com.freescale.s12z.toolchain.compiler.warnings.warningsFlag.hidden.adjusted.1940116630" value="false" valueType="boolean"/>
+								<option id="com.freescale.s12z.toolchain.compiler.warnings.enableWarnings.hidden.adjusted.82962405.adjusted.649460881" superClass="com.freescale.s12z.toolchain.compiler.warnings.enableWarnings.hidden.adjusted.82962405" value="com.freescale.s12z.toolchain.warnings.enableWarnings.custom.hidden" valueType="enumerated"/>
+								<option id="com.freescale.s12z.toolchain.compiler.warnings.warningsFlag.hidden.adjusted.1845459245.adjusted.1948757038" superClass="com.freescale.s12z.toolchain.compiler.warnings.warningsFlag.hidden.adjusted.1845459245" value="false" valueType="boolean"/>
+								<option id="com.freescale.s12z.toolchain.compiler.warnings.enableWarnings.hidden.adjusted.526828823.adjusted.1839051034" superClass="com.freescale.s12z.toolchain.compiler.warnings.enableWarnings.hidden.adjusted.526828823" value="com.freescale.s12z.toolchain.warnings.enableWarnings.custom.hidden" valueType="enumerated"/>
+								<inputType id="com.freescale.s12z.toolchain.compiler.inputType2.c.1586797305" name="S12Z C Compiler Input" superClass="com.freescale.s12z.toolchain.compiler.inputType2.c"/>
+								<inputType id="com.freescale.s12z.toolchain.compiler.inputType2.cpp.1978057327" name="S12Z C++ Compiler Input" superClass="com.freescale.s12z.toolchain.compiler.inputType2.cpp"/>
+							</tool>
+							<tool errorParsers="" id="com.freescale.s12z.toolchain.assembler.66138558" name="S12Z Assembler" superClass="com.freescale.s12z.toolchain.assembler">
+								<option id="com.freescale.s12z.toolchain.asm.input.searchPaths.1473882212" name="Include File Search Path" superClass="com.freescale.s12z.toolchain.asm.input.searchPaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code&quot;"/>
+								</option>
+								<inputType id="com.freescale.s12z.toolchain.asm.inputType.1717340896" name="S12Z Assembler Input" superClass="com.freescale.s12z.toolchain.asm.inputType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.freescale.s12z.toolchain.release.1128754352.Project_Settings/Startup_Code/starts12z.c" name="starts12z.c" rcbsApplicability="disable" resourcePath="Project_Settings/Startup_Code/starts12z.c" toolsToInvoke="com.freescale.s12z.toolchain.compiler.403865372.1927316811">
+						<tool errorParsers="" id="com.freescale.s12z.toolchain.compiler.403865372.1927316811" name="S12Z Compiler" superClass="com.freescale.s12z.toolchain.compiler.403865372">
+							<inputType id="com.freescale.s12z.toolchain.compiler.inputType2.c.951602973" name="S12Z C Compiler Input" superClass="com.freescale.s12z.toolchain.compiler.inputType2.c"/>
+							<inputType id="com.freescale.s12z.toolchain.compiler.inputType2.cpp.240552191" name="S12Z C++ Compiler Input" superClass="com.freescale.s12z.toolchain.compiler.inputType2.cpp"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="com.freescale.s12z.toolchain.release.1128754352..settings/com.freescale.processorexpert.core.prefs" name="com.freescale.processorexpert.core.prefs" rcbsApplicability="disable" resourcePath=".settings/com.freescale.processorexpert.core.prefs" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry excluding=".settings/com.freescale.processorexpert.core.prefs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="SJB_APP.com.freescale.s12z.toolchain.project.executable.2128671331" name="Freescale S12Z Project" projectType="com.freescale.s12z.toolchain.project.executable"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="FLASH">
+			<resource resourceType="PROJECT" workspacePath="/SJB_APP"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.freescale.s12z.toolchain.release.1128754352;com.freescale.s12z.toolchain.release.1128754352.;com.freescale.s12z.toolchain.compiler.403865372;com.freescale.s12z.toolchain.compiler.inputType2.cpp.1978057327">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.freescale.s12z.c.symbols.toolchain.discoveryProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.freescale.s12z.toolchain.release.1128754352;com.freescale.s12z.toolchain.release.1128754352.;com.freescale.s12z.toolchain.compiler.403865372;com.freescale.s12z.toolchain.compiler.inputType2.c.1586797305">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.freescale.s12z.c.symbols.toolchain.discoveryProfile"/>
+			<profile id="com.freescale.s12z.c.symbols.toolchain.discoveryProfile">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="false"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="" command="" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
