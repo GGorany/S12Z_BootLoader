@@ -1,7 +1,7 @@
 # S12Z_BootLoader
 NXP S12Z - CAN Flash BootLoader
 
-###  NXP S12Z MCU 의 CAN BootLoader 소스코드 입니다.
+###  NXP S12Z MCU 의 CAN Flash BootLoader 소스코드 입니다.
 
 VLG-MC9S12ZVC development 보드에서 테스트되었습니다.  
 이 BootLoader 는 총 3개의 프로젝트로 나뉘어 있습니다.  
