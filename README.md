@@ -41,4 +41,4 @@ python-udsoncan https://github.com/pylessard/python-udsoncan
 python-isotp https://github.com/pylessard/python-can-isotp  
 python-can https://github.com/hardbyte/python-can  
   
-리프로그램 절차 - 현대 자동차 UDS 스펙을 간소화.
+리프로그램 프로토콜 - 현대 자동차 UDS 스펙을 간소화.
