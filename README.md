@@ -7,7 +7,7 @@ VLG-MC9S12ZVC development 보드에서 테스트되었습니다.
 이 BootLoader 는 총 3개의 프로젝트로 나뉘어 있습니다.  
   
 ./BOOT => CAN BootLoader 입니다.  
-./APP => 테트트용 Application 입니다.  
+./APP => 테스트용 Application 입니다.  
 ./Reprogram_Tool => 파이썬으로 작성된 UDS CAN Reprogram Tool 입니다.  
 
 
